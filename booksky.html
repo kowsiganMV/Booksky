@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Booksky</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+	<div class="popop-overlay">
+		<div class="popop-box">
+			<form>
+				<h2>ADD BOOK</h2>
+				<input type="text" placeholder="Book title" id="book-name">
+				<input type="text" placeholder="Book Author" id="book-author">
+				<textarea type="text" placeholder="Short discription" id="book-content"></textarea>
+				<button id="add-popop">ADD</button>
+				<button id="cancel-popop">CANCEL</button>
+			</form>
+			
+		</div>
+	</div>
+	
+
+	<div class="navbar">
+		<h1>Booksky</h1>
+	</div>
+
+	<div class="container">
+		<div class="book-container">
+			<h2>Harry potter</h2>
+			<h5>robert</h5>
+			<p>simply sharath is ghost video vloger he and his team visit strange houses and strange buildings and explored it their own risk.</p>
+			<button onclick="deletebook(event)">delete</button>
+		</div>
+	</div>
+	<button class="add-button" id="add-button-poppop">+</button>
+	<script src="script.js"></script>
+</body>
+</html>
